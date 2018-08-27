@@ -102,6 +102,8 @@
 				<configuration>
 					<archive>
 						<manifest>
+							<addClasspath>true</addClasspath>
+                                                        <classpathPrefix>lib/</classpathPrefix>
 							<mainClass>com.shivajivarma.brs.AppLauncher</mainClass>
 						</manifest>
 					</archive>
